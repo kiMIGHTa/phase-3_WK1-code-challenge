@@ -1,7 +1,3 @@
-#breakdown strings to substring on condition of it is not a vowel
-# calculate value of substring according to a range of the alphabet(1-26)
-# params=>string
-#variables=>substring array and vowels for condition 
 
 def consonant_substr_value(string):
     vowels = "aeiou"
@@ -15,12 +11,31 @@ def consonant_substr_value(string):
                 current_substr=""
         else:
             current_substr += char
-            
+
     if current_substr:
             consonant_substr.append(current_substr)
 
     print(consonant_substr)
-    pass
 
+    def get_value(cs):
+        string_value = 0
+        for ch in cs:
+            string_value += ord(ch)-ord("a")+1
+        return string_value 
+
+
+    max_value=0
+
+    for substr in consonant_substr:
+         value= get_value(substr)
+         if value> max_value:
+              max_value=value
+    print(max_value)
+
+
+    pass           
+
+
+consonant_substr_value("zodiacs")
 consonant_substr_value("strength")
 
