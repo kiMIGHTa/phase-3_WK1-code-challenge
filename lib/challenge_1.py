@@ -1,7 +1,3 @@
-#parameters=>hour,min,period
-#if pm add 12 except 12 itself
-#if midnight i.e 12 am eka hour = 0
-#join them after convertion CORRECTLY
 
 def convert_to_24hr_sys(hour,minutes, period):
     if period=='am' and hour == 12:
