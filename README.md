@@ -1,6 +1,6 @@
 # phase-3_WK1-code-challenge
 ## Author
-- 
+- Dennis Kimaita
 
 # Challenge 1: Converting 12-hour time to 24-hour time
 
@@ -21,14 +21,15 @@
 - Initialize a list called consonant_substr to store individual consonant substrings found within the input string.
 
 - Iterate through each character in the input string:
-
 - - If the character is a vowel ('aeiou'), the current substring (if any) is added to the consonant_substr list, and the current_substr is reset.
 - - If the character is a consonant, it is added to the current_substr.
 - After the loop, if there is an unfinished current_substr, it is added to the consonant_substr list.
 
 - Define a function get_value(cs) that calculates the value of a given consonant substring by summing up the ASCII values of its characters.
-
 - Iterate through the consonant_substr list and calculate the value of each substring using the get_value function. Keep track of the maximum value encountered.
-
 - Finally, print the list of consonant substrings found and the maximum value among them.
+
+## Operation
+- Run python lib/challenge_3.py in your terminal while in the phase-3_WK1-code-challenge dir.
+
 
