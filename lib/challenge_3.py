@@ -33,7 +33,7 @@ def consonant_substr_value(string):
     print(max_value)
 
 
-    pass           
+    return max_value           
 
 
 consonant_substr_value("zodiacs")

@@ -1,6 +1,3 @@
-# true if a>0,b>0 and c<0 or a>0,b<0 and c>0 or a<0,b>0 and c>0
-# else false
-
 
 def two_numbers_are_positive(a,b,c):
     if a>0 and b>0 and c<0 or a>0 and b<0 and c>0 or a<0 and b>0 and c>0:

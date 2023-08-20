@@ -9,7 +9,7 @@ def convert_to_24hr_sys(hour,minutes, period):
     min_str=str(minutes).zfill(2)   
 
     print(hour_str + min_str)
-    pass   
+    return hour_str + min_str   
 
 convert_to_24hr_sys(12, 00, 'pm')
 convert_to_24hr_sys(12, 00, 'am')
