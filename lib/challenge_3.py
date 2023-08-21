@@ -47,7 +47,7 @@ def consonant_substr_value(string):
 
     return max_value           
 
-
+#tests
 consonant_substr_value("zodiacs")
 consonant_substr_value("strength")
 

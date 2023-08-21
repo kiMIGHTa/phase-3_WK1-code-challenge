@@ -15,7 +15,7 @@ def convert_to_24hr_sys(hour,minutes, period):
 
 
 #tests
-convert_to_24hr_sys(12, 00, 'pm')
+convert_to_24hr_sys(89, 900, 'pm')
 convert_to_24hr_sys(12, 00, 'am')
 convert_to_24hr_sys(1, 30, 'am')
 convert_to_24hr_sys(1, 30, 'pm')
